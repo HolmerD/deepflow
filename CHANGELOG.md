@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: the name of native tag cannot use reserved words [#9202](https://github.com/deepflowio/deepflow/pull/9202) by [lzf575](https://github.com/lzf575)
+* fix: adding an existing native tag should result in a failure [#9201](https://github.com/deepflowio/deepflow/pull/9201) by [lzf575](https://github.com/lzf575)
+* fix: Inconsistent settings and examples [#9199](https://github.com/deepflowio/deepflow/pull/9199) by [rvql](https://github.com/rvql)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
