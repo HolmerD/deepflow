@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: custom service match any port service [#9237](https://github.com/deepflowio/deepflow/pull/9237) by [lzf575](https://github.com/lzf575)
+* fix: custom service type error [#9234](https://github.com/deepflowio/deepflow/pull/9234) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: Add more info for get_k8s_image [#9233](https://github.com/deepflowio/deepflow/pull/9233) by [rvql](https://github.com/rvql)
+* fix: export prometheus failed [#9232](https://github.com/deepflowio/deepflow/pull/9232) by [lzf575](https://github.com/lzf575)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +280,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: enum auto service type add custom service [#9235](https://github.com/deepflowio/deepflow/pull/9235) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent group config gets l7 protocols from ck [#9188](https://github.com/deepflowio/deepflow/pull/9188) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -605,6 +611,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* Update README.md [#9229](https://github.com/deepflowio/deepflow/pull/9229) by [1473371932](https://github.com/1473371932)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
