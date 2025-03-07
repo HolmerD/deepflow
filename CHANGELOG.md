@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: data_source table init failed [#9266](https://github.com/deepflowio/deepflow/pull/9266) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +277,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify default query_time [#9263](https://github.com/deepflowio/deepflow/pull/9263) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: add query_time in data_source [#9255](https://github.com/deepflowio/deepflow/pull/9255) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: output k8s cluster [#9253](https://github.com/deepflowio/deepflow/pull/9253) by [askyrie](https://github.com/askyrie)
+* feat: refresh agent upgrade [#9245](https://github.com/deepflowio/deepflow/pull/9245) by [askyrie](https://github.com/askyrie)
+* feat: change custom category to custom tag category [#9228](https://github.com/deepflowio/deepflow/pull/9228) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent upgrade image add cache [#9186](https://github.com/deepflowio/deepflow/pull/9186) by [askyrie](https://github.com/askyrie)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
