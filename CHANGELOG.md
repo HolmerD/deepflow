@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Agent terminate and update config stuck [#9331](https://github.com/deepflowio/deepflow/pull/9331) by [rvql](https://github.com/rvql)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +277,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: stop the sender thread faster [#9332](https://github.com/deepflowio/deepflow/pull/9332) by [lzf575](https://github.com/lzf575)
+* feat: add comment in agent sync user_config [#9320](https://github.com/deepflowio/deepflow/pull/9320) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: querier delete auto ip columns [#9249](https://github.com/deepflowio/deepflow/pull/9249) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
