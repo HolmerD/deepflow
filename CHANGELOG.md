@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent upgrade panic [#9363](https://github.com/deepflowio/deepflow/pull/9363) by [askyrie](https://github.com/askyrie)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +277,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: delete gprocess group not null filter [#9367](https://github.com/deepflowio/deepflow/pull/9367) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: Print backtrace on panic exit [#9364](https://github.com/deepflowio/deepflow/pull/9364) by [rvql](https://github.com/rvql)
+* feat: support learn vinterface with no ip [#9359](https://github.com/deepflowio/deepflow/pull/9359) by [askyrie](https://github.com/askyrie)
+* Revert "feat: support learn vinterface with no ip" [#9357](https://github.com/deepflowio/deepflow/pull/9357) by [askyrie](https://github.com/askyrie)
+* feat: Support x_request_id in wasm [#9352](https://github.com/deepflowio/deepflow/pull/9352) by [rvql](https://github.com/rvql)
+* feat: support learn vinterface with no ip [#9351](https://github.com/deepflowio/deepflow/pull/9351) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -545,6 +552,8 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: replace `golang.org/x/exp/slices` with stdlib `slices` [#9305](https://github.com/deepflowio/deepflow/pull/9305) by [Juneezee](https://github.com/Juneezee)
+* refactor: replace deprecated `io/ioutil` functions [#9289](https://github.com/deepflowio/deepflow/pull/9289) by [Juneezee](https://github.com/Juneezee)
 * refactor: add logs [#8787](https://github.com/deepflowio/deepflow/pull/8787) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: Remove legacy agent config [#8586](https://github.com/deepflowio/deepflow/pull/8586) by [rvql](https://github.com/rvql)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -601,6 +610,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: Remove unused dep in CE [#9360](https://github.com/deepflowio/deepflow/pull/9360) by [rvql](https://github.com/rvql)
+* chore: added Chinese name for the configuration item Multiple Sockets To [#9353](https://github.com/deepflowio/deepflow/pull/9353) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
