@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: log level warning should be WARN [#10033](https://github.com/deepflowio/deepflow/pull/10033) by [lzf575](https://github.com/lzf575)
+* fix: too many config logs [#10030](https://github.com/deepflowio/deepflow/pull/10030) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: fails to insert too long config_map [#10026](https://github.com/deepflowio/deepflow/pull/10026) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: license func convert to int [#10023](https://github.com/deepflowio/deepflow/pull/10023) by [askyrie](https://github.com/askyrie)
+* fix: tagrecoder corrects the value of gprocess [#9860](https://github.com/deepflowio/deepflow/pull/9860) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +281,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Get the remote IP and port of the UDP [#10028](https://github.com/deepflowio/deepflow/pull/10028) by [Heyxk](https://github.com/Heyxk)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
