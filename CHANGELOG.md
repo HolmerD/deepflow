@@ -276,6 +276,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Support Rocky Linux 5.14 [#10635](https://github.com/deepflowio/deepflow/pull/10635) by [yinjiping](https://github.com/yinjiping)
+* feat: Support storing content of exceptional requests or responses [#10634](https://github.com/deepflowio/deepflow/pull/10634) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: querier adds response ratio and success ratio metrics [#10633](https://github.com/deepflowio/deepflow/pull/10633) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
