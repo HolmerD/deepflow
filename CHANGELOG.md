@@ -276,6 +276,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify npb_policy and acl name len [#10712](https://github.com/deepflowio/deepflow/pull/10712) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: tagrecorder custom service renaming [#10704](https://github.com/deepflowio/deepflow/pull/10704) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: Optimal Configuration [#10700](https://github.com/deepflowio/deepflow/pull/10700) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: l7 flow log add column is_async [#10657](https://github.com/deepflowio/deepflow/pull/10657) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
