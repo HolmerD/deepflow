@@ -276,6 +276,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Support Case-Insensitive Matching for providerType [#10846](https://github.com/deepflowio/deepflow/pull/10846) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: eBPF Add the socktrace query command [#10838](https://github.com/deepflowio/deepflow/pull/10838) by [yinjiping](https://github.com/yinjiping)
+* feat: The app table supports whitelist configuration [#10825](https://github.com/deepflowio/deepflow/pull/10825) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
