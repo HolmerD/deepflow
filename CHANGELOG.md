@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: the calculation of L7PerfStats when no merge is required. [#11196](https://github.com/deepflowio/deepflow/pull/11196) by [lzf575](https://github.com/lzf575)
+* fix: push all resource ids that match the name in biz svc [#11195](https://github.com/deepflowio/deepflow/pull/11195) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
 * fix: wan type cidr may not be tagged [#8814](https://github.com/deepflowio/deepflow/pull/8814) by [lzf575](https://github.com/lzf575)
@@ -276,6 +278,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Separate config for custom policies [#11185](https://github.com/deepflowio/deepflow/pull/11185) by [rvql](https://github.com/rvql)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -605,6 +608,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* optimize lua cpu cost [#11118](https://github.com/deepflowio/deepflow/pull/11118) by [qlndzt](https://github.com/qlndzt)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
