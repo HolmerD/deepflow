@@ -276,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify category metrics to Native Metrics [#11401](https://github.com/deepflowio/deepflow/pull/11401) by [zhens0704](https://github.com/zhens0704)
+* feat: alert event add custom_tag type [#11400](https://github.com/deepflowio/deepflow/pull/11400) by [lzf575](https://github.com/lzf575)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
