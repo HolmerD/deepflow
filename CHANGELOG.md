@@ -276,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add infer remote server config in trace_map [#11447](https://github.com/deepflowio/deepflow/pull/11447) by [taloric](https://github.com/taloric)
+* feat: agent state counter [#11432](https://github.com/deepflowio/deepflow/pull/11432) by [askyrie](https://github.com/askyrie)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -580,6 +582,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: optimize logger [#11445](https://github.com/deepflowio/deepflow/pull/11445) by [lzf575](https://github.com/lzf575)
 * perf: add primary key for in_process table [#8623](https://github.com/deepflowio/deepflow/pull/8623) by [lzf575](https://github.com/lzf575)
 * perf: modify materialized view local table without group by [#8575](https://github.com/deepflowio/deepflow/pull/8575) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of json string escape [#8508](https://github.com/deepflowio/deepflow/pull/8508) by [lzf575](https://github.com/lzf575)
