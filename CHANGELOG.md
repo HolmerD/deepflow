@@ -276,6 +276,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier support alert state [#11508](https://github.com/deepflowio/deepflow/pull/11508) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: modify metric value displayname [#11507](https://github.com/deepflowio/deepflow/pull/11507) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: update default port name regex [#11506](https://github.com/deepflowio/deepflow/pull/11506) by [askyrie](https://github.com/askyrie)
+* feat: custom policy and field disabled [#11504](https://github.com/deepflowio/deepflow/pull/11504) by [askyrie](https://github.com/askyrie)
+* feat: add enabled flag to custom app policies and fields [#11503](https://github.com/deepflowio/deepflow/pull/11503) by [rvql](https://github.com/rvql)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
