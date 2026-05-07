@@ -276,6 +276,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify index definition to be compatible with OB [#11671](https://github.com/deepflowio/deepflow/pull/11671) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: agent - eBPF DPDK User-Space Packet Statistics [#8808](https://github.com/deepflowio/deepflow/pull/8808) by [yinjiping](https://github.com/yinjiping)
 * feat: eBPF tars infer support [#8785](https://github.com/deepflowio/deepflow/pull/8785) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -614,3 +615,7 @@
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
+
+
+#### Testing
+* Add tests for syscall hook configuration [#11701](https://github.com/deepflowio/deepflow/pull/11701) by [yinjiping](https://github.com/yinjiping)
